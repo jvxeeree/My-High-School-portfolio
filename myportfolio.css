@@ -1,0 +1,74 @@
+body{
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #ececec;
+    position: fix;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    line-height: 100px;
+}
+
+.logo a{
+    font-family: monospace,serif;
+    font-size: 40px;
+    color: #142d4c;
+    letter-spacing: 4px;
+}
+
+nav {
+    float:right;
+    line-height: 100px;
+    font-size: 20px;
+    font-family: monospace,serif;
+    padding: 14px 16px;
+    color:whitesmoke;
+
+}
+
+.wrapperclass{
+    display:flex;
+    width:1400px; 
+    justify-content: center;
+}
+
+.wrapperclass > *{
+    width: 200px;
+    margin:10px;
+    border:3px solid #142d4c;
+    background-color: #ececec;
+ }
+ 
+
+
+
+
+.leadership,.volunteering{
+    border:3px solid #142d4c;
+    background-color: #ececec;
+}
+
+
+h2{
+    color:#385170;
+    font-family: monospace,serif;
+}
+
+.contact {
+  
+    background-color: #faf8f8;
+    border:3px solid #ececec;
+    width: 200px;
+    margin:1px;
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    text-align: center;
+}
